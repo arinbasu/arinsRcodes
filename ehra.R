@@ -1,0 +1,6 @@
+setwd("/Users/arindambose/Google Drive/meta-analysi-workshop-dunedin")
+list.files()
+require("foreign")
+## myfile <- read.dta("Sessions_one_and_two.dta")
+mydata <- data(cars)
+print(summary(mydata))
